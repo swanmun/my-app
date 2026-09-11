@@ -1,5 +1,5 @@
 // src/styles/notes.ts
-import { StyleSheet } from 'react-native';
+import { StyleSheet } from "react-native";
 
 export const notesStyles = StyleSheet.create({
   container: {
@@ -10,29 +10,29 @@ export const notesStyles = StyleSheet.create({
 
   title: {
     fontSize: 24,
-    fontWeight: 'bold',
+    fontWeight: "bold",
     marginTop: 20,
   },
 
   input: {
     minHeight: 90,
     borderWidth: 1,
-    borderColor: '#cbd5e1',
+    borderColor: "#cbd5e1",
     borderRadius: 8,
     padding: 12,
-    textAlignVertical: 'top',
+    textAlignVertical: "top",
   },
 
   listHeader: {
-    flexDirection: 'row',
-    alignItems: 'center',
-    justifyContent: 'space-between',
+    flexDirection: "row",
+    alignItems: "center",
+    justifyContent: "space-between",
     marginTop: 12,
   },
 
   listTitle: {
     fontSize: 18,
-    fontWeight: 'bold',
+    fontWeight: "bold",
   },
 
   list: {
@@ -42,7 +42,7 @@ export const notesStyles = StyleSheet.create({
 
   noteItem: {
     borderWidth: 1,
-    borderColor: '#e2e8f0',
+    borderColor: "#e2e8f0",
     borderRadius: 8,
     padding: 14,
     gap: 8,
@@ -54,7 +54,7 @@ export const notesStyles = StyleSheet.create({
   },
 
   date: {
-    color: '#64748b',
+    color: "#64748b",
     fontSize: 12,
   },
 
@@ -75,8 +75,27 @@ export const notesStyles = StyleSheet.create({
   },
 
   emptyText: {
-    color: '#64748b',
-    textAlign: 'center',
+    color: "#64748b",
+    textAlign: "center",
     marginTop: 24,
+  },
+
+  buttonRow: {
+    flexDirection: "row",
+    gap: 8,
+  },
+
+  previewImage: {
+    width: "100%",
+    height: 200,
+    borderRadius: 8,
+    resizeMode: "cover",
+  },
+
+  noteImage: {
+    width: "100%",
+    height: 180,
+    borderRadius: 8,
+    resizeMode: "cover",
   },
 });
