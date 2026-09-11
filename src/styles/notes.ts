@@ -7,11 +7,13 @@ export const notesStyles = StyleSheet.create({
     padding: 24,
     gap: 12,
   },
+
   title: {
     fontSize: 24,
     fontWeight: 'bold',
     marginTop: 20,
   },
+
   input: {
     minHeight: 90,
     borderWidth: 1,
@@ -20,20 +22,24 @@ export const notesStyles = StyleSheet.create({
     padding: 12,
     textAlignVertical: 'top',
   },
+
   listHeader: {
     flexDirection: 'row',
     alignItems: 'center',
     justifyContent: 'space-between',
     marginTop: 12,
   },
+
   listTitle: {
     fontSize: 18,
     fontWeight: 'bold',
   },
+
   list: {
     gap: 10,
     paddingBottom: 12,
   },
+
   noteItem: {
     borderWidth: 1,
     borderColor: '#e2e8f0',
@@ -41,14 +47,33 @@ export const notesStyles = StyleSheet.create({
     padding: 14,
     gap: 8,
   },
+
   noteContent: {
     fontSize: 16,
     lineHeight: 22,
   },
+
   date: {
     color: '#64748b',
     fontSize: 12,
   },
+
+  deleteButton: {
+    marginTop: 8,
+    paddingVertical: 10,
+    paddingHorizontal: 16,
+    borderRadius: 6,
+    backgroundColor: '#d9534f',
+    alignItems: 'center',
+    justifyContent: 'center',
+  },
+
+  deleteButtonText: {
+    color: '#ffffff',
+    fontSize: 15,
+    fontWeight: '600',
+  },
+
   emptyText: {
     color: '#64748b',
     textAlign: 'center',
